@@ -1,4 +1,4 @@
-package exam;
+package practice;
 
 class B {
 	int data;

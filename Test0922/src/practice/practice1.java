@@ -1,7 +1,7 @@
-package exam;
+package practice;
 
-class A{
-	public void averageScore(int ...values) {
+class E{
+	public void AS(int ...values) {
 		int sum = 0;
 		for(int i = 0; i < values.length; i++) {
 			sum += values[i];
@@ -14,8 +14,8 @@ class A{
 
 public class practice1 {
 	public static void main(String[] args) {
-		A a = new A();
-		a.averageScore(1);
-		a.averageScore(1, 2, 3, 4);
+		E e = new E();
+		e.AS(1);
+		e.AS(1, 2, 3, 4);
 	}
 }
